@@ -5,6 +5,7 @@ import org.springframework.boot.autoconfigure.SpringBootApplication;
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.RestController;
 
+//BEGIN
 @SpringBootApplication
 @RestController
 public class Application {
@@ -14,7 +15,8 @@ public class Application {
 
     @GetMapping("/about")
     public String about() {
-        return "Welcome to Hexlet, my friend!";
+        return "Welcome to Hexlet!";
     }
 }
+//END
 
